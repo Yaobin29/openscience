@@ -29,14 +29,9 @@ Use this skill to analyze a local 1D NMR dataset, generate a figure and peak lis
 
 ## Dependencies
 
-Install dependencies via Conda (recommended) or pip:
+Install the dependencies into the active Python environment:
 
 ```bash
-# Conda
-conda env create -f environment.yml
-conda activate robin-nmr-compound-inference
-
-# pip
 python3 -m pip install nmrglue numpy matplotlib
 ```
 
